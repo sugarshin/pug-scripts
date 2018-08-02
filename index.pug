@@ -1,0 +1,7 @@
+mixin scripts(scripts, filename)
+  if scripts
+    each s in scripts
+      - const includes = s.files === '*' || s.files.includes(filename)
+      if includes
+        script()&attributes(s.attributes).
+          !{s.inline || ''}

@@ -1,0 +1,32 @@
+{
+  "name": "pug-scripts",
+  "version": "0.0.0",
+  "description": "A `<script />` renderer for Pug mixin",
+  "main": "index.pug",
+  "files": [
+    "index.pug"
+  ],
+  "scripts": {
+    "pretest": "pug -O ./fixtures/data.js -o ./fixtures ./fixtures/test.pug",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugarshin/pug-scripts.git"
+  },
+  "keywords": [
+    "pug",
+    "mixin"
+  ],
+  "author": "Shingo Sato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sugarshin/pug-scripts/issues"
+  },
+  "homepage": "https://github.com/sugarshin/pug-scripts#readme",
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
