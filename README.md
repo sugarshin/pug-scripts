@@ -1,5 +1,7 @@
 # pug-scripts
 
+[![CircleCI](https://circleci.com/gh/sugarshin/pug-scripts.svg?style=svg&circle-token=0aef95d3066a0e2856faba11b5a63a7cc0347e58)](https://circleci.com/gh/sugarshin/pug-scripts)
+
 A `<script />` renderer for Pug mixin.
 
 ```sh
